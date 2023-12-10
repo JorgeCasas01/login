@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+.dashboard {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 15px; 
+}
+
+.dashboard div {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    margin-top: 5px;
+    font-size: 16px;
+    background-color:aliceblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.fb:hover{
+    background-color: #3b5998;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.x:hover{
+    background-color: #00aeec;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.yt:hover{
+    background-color: #c4302b;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
